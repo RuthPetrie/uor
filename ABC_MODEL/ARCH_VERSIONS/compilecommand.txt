@@ -1,0 +1,28 @@
+# f90 Main.f90 DefConsTypes.f90 UM_data_proc.f90 Functions.f90  Diagnostics.f90  Boundaries.f90 BoundaryMod.f90 Forcings.f90 Initialise.f90 Model.f90 ReadWrite_data.f90  Linear_Analysis.f90 -I/opt/graphics/64/include -M/opt/graphics/64/include -L/opt/graphics/64/lib -R/opt/graphics/64/lib -lnetcdf-4.0 -lhdf5_hl -lhdf5 -L/opt/compilers/NAG/fnl6a04ddl/lib -R/opt/compilers/NAG/fnl6a04ddl/lib -lnagfl90_spl -xlic_lib=sunperf -o Main.out
+
+
+# f90 -I/opt/graphics/64/include -o Main.out Main.f90 DefConsTypes.f90 UM_data_proc.f90 Functions.f90  Diagnostics.f90  Boundaries.f90 BoundaryMod.f90 Forcings.f90 Initialise.f90 Model.f90 ReadWrite_data.f90  Linear_Analysis.f90  -M/opt/graphics/64/include -L/opt/graphics/64/lib -lnetcdf-4.0 -lhdf5_hl -lhdf5 -L/opt/compilers/NAG/fnl6a04ddl/lib -R/opt/compilers/NAG/fnl6a04ddl/lib -lnagfl90_spl -xlic_lib=sunperf 
+
+ # f90 -I/opt/graphics/64/include -o Main.out Main.f90 DefConsTypes.f90 UM_data_proc.f90 Functions.f90  Diagnostics.f90  Boundaries.f90 BoundaryMod.f90 Forcings.f90 Initialise.f90 Model.f90 ReadWrite_data.f90 Linear_Analysis.f90 -M/opt/graphics/64/include -L/opt/graphics/64/lib -lnetcdf-4.0 -lhdf5_hl -lhdf5 
+
+THE RIGHT ONE!!!! 
+ f90 Main.f90 DefConsTypes.f90 UM_data_proc.f90 Functions.f90  Diagnostics.f90  Boundaries.f90 BoundaryMod.f90 Forcings.f90 Initialise.f90 Model.f90 ReadWrite_data.f90  Linear_Analysis.f90 -I/opt/graphics/64/include -M/opt/graphics/64/include -L/opt/graphics/64/lib -R/opt/graphics/64/lib -lnetcdf-4.0 -lhdf5_hl -lhdf5 -M/opt/compilers/NAG/fnl6a04ddl/nagfl90_modules -L/opt/compilers/NAG/fnl6a04ddl/lib -R/opt/compilers/NAG/fnl6a04ddl/lib -lnagfl90_spl -xlic_lib=sunperf  -o Main.out
+
+
+
+CORRECT FOR NETCDF
+f90 file.f90 
+
+
+THE RIGHT ONE!!!! 
+ f90 Main.f90 DefConsTypes.f90 UM_data_proc.f90 Functions.f90  Diagnostics.f90  Boundaries.f90 BoundaryMod.f90 Forcings.f90 Initialise.f90 Model.f90 ReadWrite_data.f90  Linear_Analysis.f90 
+
+-I/opt/graphics/64/include -M/opt/graphics/64/include -L/opt/graphics/64/lib -R/opt/graphics/64/lib -lnetcdf-4.0 -lhdf5_hl -lhdf5 
+
+-M/opt/compilers/NAG/fnl6a04ddl/nagfl90_modules -L/opt/compilers/NAG/fnl6a04ddl/lib -R/opt/compilers/NAG/fnl6a04ddl/lib -lnagfl90_spl -xlic_lib=sunperf  
+
+-o Main.out
+
+ 
+ 
+

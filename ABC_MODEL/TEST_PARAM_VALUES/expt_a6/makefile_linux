@@ -1,0 +1,60 @@
+# On departmental linux pre commands called by run_model.sh 
+# else enter manually:
+#================================================================================
+# setup studio12
+# export NAG_KUSARI_FILE=/opt/compilers/NAG/license.dat
+# export LD_LIBRARY_PATH=$LIBRARY_PATH:/opt/graphics/64/lib
+#
+# final export required for REP only as REP's profile has inconsistencies
+#
+
+
+#================================================================================
+# These compile and link options are for departmental linux (comment out for carrot and ubuntu)
+# The -O3 is for faster code
+#===================================================================================
+CompileOpts=-O3
+#CompileOpts_NC=
+CompileOpts_NC= -M/opt/graphics/64/include 
+CompileOpts_NAG=-M/opt/compilers/NAG/fnl6a04ddl/nagfl90_modules
+LinkOpts=-I/opt/graphics/64/include -M/opt/graphics/64/include -L/opt/graphics/64/lib -lnetcdf-4.0 -R/opt/graphics/64/lib -lhdf5_hl -lhdf5 -L/opt/compilers/NAG/fnl6a04ddl/lib -R/opt/compilers/NAG/fnl6a04ddl/lib -lnagfl90_spl -xlic_lib=sunperf
+
+# These two lines are for carrot (comment out for ubuntu)
+Main.out: Main.o DefConsTypes.o UM_data_proc.o Functions.o Diagnostics.o Boundaries.o BoundaryMod.o Forcings.o Initialise.o Model.o ReadWrite_data.o Linear_Analysis.o
+	f90 Main.o -o Main.out DefConsTypes.o UM_data_proc.o Functions.o Diagnostics.o Boundaries.o BoundaryMod.o Forcings.o Initialise.o Model.o ReadWrite_data.o Linear_Analysis.o $(LinkOpts)
+
+Main.o: Main.f90 DefConsTypes.o
+	f90 -c Main.f90 $(CompileOpts)
+
+DefConsTypes.o: DefConsTypes.f90
+	f90 -c DefConsTypes.f90 $(CompileOpts)
+
+UM_data_proc.o: UM_data_proc.f90 DefConsTypes.o
+	f90 -c UM_data_proc.f90 $(CompileOpts_NC)
+
+Functions.o: Functions.f90 DefConsTypes.o
+	f90 -c Functions.f90 $(CompileOpts)
+
+Diagnostics.o: Diagnostics.f90 DefConsTypes.o
+	f90 -c Diagnostics.f90 $(CompileOpts)
+
+Boundaries.o: Boundaries.f90 DefConsTypes.o
+	f90 -c Boundaries.f90 $(CompileOpts)
+
+BoundaryMod.o: BoundaryMod.f90 DefConsTypes.o
+	f90 -c BoundaryMod.f90 $(CompileOpts)
+
+Forcings.o: Forcings.f90 DefConsTypes.o
+	f90 -c Forcings.f90 $(CompileOpts)
+
+Initialise.o: Initialise.f90 DefConsTypes.o
+	f90 -c Initialise.f90 $(CompileOpts)
+
+Model.o: Model.f90 DefConsTypes.o
+	f90 -c Model.f90 $(CompileOpts)
+
+Linear_Analysis.o: Linear_Analysis.f90 DefConsTypes.o
+	f90 -c Linear_Analysis.f90 $(CompileOpts_NAG)
+
+clean:
+	rm -rf *.o *.out *.mod

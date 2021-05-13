@@ -1,0 +1,20 @@
+Ruth Petrie
+Department of Meteorology 
+University of Reading
+
+Email: r.e.petrie@reading.ac.uk
+Phone: +44 118 378 5218
+Web: http://www.met.reading.ac.uk/~wx019276/index.html
+
+Ruth completed an MSc. in Atmosphere, Ocean and Climate at the University of Reading
+in 2008. Her MSc. project (with Dr. Sarah Dance) was on Localization in the Ensemble 
+Transform Kalman Filter.
+
+Since then Ruth has been working for a PhD at the University of Reading with Dr. Ross 
+Bannister.  She has been investigating background error covariance modelling for 
+convective scale data assimilation. As part of this project a new non-hydrostatic 
+toy model of intermediate complexity was derived and implemented to be used to
+investigate the convective scale data assimilation problem.  Ruth has been 
+investigating the applicability of the linear normal modes as the 
+uncorrelated control variables for the control variable transform in variational assimilation.
+Ruth has also been investigating hybrid covariance modelling techniques.

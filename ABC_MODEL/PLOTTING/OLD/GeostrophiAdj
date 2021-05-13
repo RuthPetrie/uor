@@ -1,0 +1,16 @@
+d = load_nc_struct('/export/carrot/raid2/wx019276/DATA/MODEL/MODELOUT/geost_adjmt.nc');
+
+
+
+figure
+subplot(3,3,1), pcolor(squeeze(d.rho_prime(1,:,:))), shading flat, colorbar
+subplot(3,3,2), pcolor(squeeze(d.rho_prime(2,:,:))), shading flat, colorbar
+subplot(3,3,3), pcolor(squeeze(d.rho_prime(3,:,:))), shading flat, colorbar
+subplot(3,3,4), pcolor(squeeze(d.rho_prime(5,:,:))), shading flat, colorbar
+subplot(3,3,5), pcolor(squeeze(d.rho_prime(7,:,:))), shading flat, colorbar
+subplot(3,3,6), pcolor(squeeze(d.rho_prime(9,:,:))), shading flat, colorbar
+subplot(3,3,7), pcolor(squeeze(d.rho_prime(11,:,:))), shading flat, colorbar
+subplot(3,3,8), pcolor(squeeze(d.rho_prime(13,:,:))), shading flat, colorbar
+
+
+
