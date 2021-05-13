@@ -1,0 +1,17 @@
+;===================================================================================================
+FUNCTION GET_LONG_END, longin, longs
+;===================================================================================================
+
+; longin is the longitude point to convert to an index
+
+long_end = 0  
+i = 0
+WHILE (long_end EQ 0) DO BEGIN 
+  IF (longs(i) GT longin) THEN long_end = i
+  i = i+1
+ENDWHILE
+
+RETURN, long_end
+END
+;===================================================================================================
+
