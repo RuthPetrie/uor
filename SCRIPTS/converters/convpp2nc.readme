@@ -1,0 +1,31 @@
+Usage instructions for convpp2nc.tcl
+------------------------------------
+
+convpp2nc.tcl has been adapted from Convsh script conv2nc.tcl from Jeff Cole, NCAS, UoR
+and subset.tcl from BADC
+
+convpp2nc.tcl is located at ~/SHELL_SCRIPTS/converters/
+
+Usage 
+  To convert one or more pp files to a netcdf file.
+
+Command line conversion:
+
+  convpp2nc.tcl -i {filename(s)}.pp -o {fileout}.nc [-p {parameters}] [-levs {levels}]
+
+  N.B. The arguments in [] are optional arguments
+
+
+Get command line arguments:
+  -i: input files (can be more than one file)
+  -o: output file (single file only)
+  -p: select parameters to output by index number, 
+      if more than one required separate by comma; e.g -p 1,2,3
+  -levs:  selected output levels by index
+  
+The pararmeter number must be known - can not call by parameter name...this could be improved
+The level index is required not the actual level this could be improved
+
+By using this command line coversion within a shell script multiple files, variables and on 
+chosen levels can then be batch converted.  Further by combining CDO operators into the shell
+script more post processing can be achieved.

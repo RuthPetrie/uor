@@ -1,0 +1,46 @@
+###################################################
+#
+# ON QUINCE SET UP SSH CLIENT BY
+#
+#  ssh-add   
+#
+# AND INPUT PASSPHRASE
+#
+#
+#
+# THIS IS THE COMMAND TO PUT INTO SHELL TO RUN THIS SCRIPT
+#
+# sftp -b GetDataCmds.sftp wx019276@login.hector.ac.uk
+#
+# THIS SCRIPT WILL RETRIEVE ALL OUTPUT FILES IN THE 
+# SPECIFIED DIRECTORY
+#
+#
+####################################################
+
+set var='2'
+print $var
+
+localdir='/export/quince/data-06/wx019276/um_expts/'
+echo $localdir
+
+expt=fullpert/output/
+
+# Change local directory
+lcd ${localdir}${expt}
+echo ${localdir}${expt}
+
+# Change remote directory
+lmsdir=/nerc/n02/n02/wx019276/
+exptid=xhuid
+lmsexptid=pert_${exptid}
+cd ${lmsdir}${lmsexptid}/rerun/
+echo ${lmsdir}${lmsexptid}/rerun/
+
+# Get Data
+#getting ctrl 2000s data
+echo retrieving data 
+mget ${exptid}a.p*
+
+# Quit sftp
+bye

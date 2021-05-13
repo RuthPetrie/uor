@@ -1,0 +1,50 @@
+#/usr/bin/ksh
+# 
+# CALCULATE INDEX OF ZONAL MEAN WINDS
+# TO INDICATE THE DISTRIBUTION OF ENSEMBLE
+
+# DEFINE AREA AVERAGE FUNCTION
+###########################################################################
+calc_jet_postion () {
+
+typeset -Z2 ENS
+
+DIR=$1
+SEAS=$2
+LONMIN=$3
+LONMAX=$4
+LATMIN=$5
+LATMAX=$6
+VAR=$7
+
+cd ${DIR}
+
+for ENS in {1..30}; do
+  for FILE in u_${ENS}_${SEAS}_mean.nc; do
+    cdo -zonmean, -sellonlatbox,300,0,15,75, -vertmean, -sellevel,925,700 ${FILE} ${FILE%.nc}_jet.nc
+  done
+done
+}
+###########################################################################
+
+
+# SETUP CDO
+setup cdo
+
+# DEFINE DIRECTORIES
+DDIR='/net/quince/export/quince/data-05/wx019276/COUPLED_EXPTS/'
+U_BM_CTRL=${DDIR}'CTRL/U/BIMONTHLY/ENSB/'
+U_BM_PERT=${DDIR}'PERT/U/BIMONTHLY/ENSB/'
+
+
+calc_jet_postion ${U_BM_CTRL} 'JJ' 60 0 50 60 'na_jet_pole'
+calc_jet_postion ${U_BM_CTRL} 'JJ' 55 5 35 49 'na_jet_equat'
+calc_jet_postion ${U_BM_PERT} 'JJ' 60 0 50 60 'na_jet_pole'
+calc_jet_postion ${U_BM_PERT} 'JJ' 55 5 35 49 'na_jet_equat'
+calc_jet_postion ${U_BM_CTRL} 'ON' 60 0 52 60 'na_jet_pole'
+calc_jet_postion ${U_BM_CTRL} 'ON' 75 5 35 50 'na_jet_equat'
+calc_jet_postion ${U_BM_PERT} 'ON' 60 0 52 60 'na_jet_pole'
+calc_jet_postion ${U_BM_PERT} 'ON' 75 5 35 50 'na_jet_equat'
+
+
+
