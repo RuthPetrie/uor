@@ -1,0 +1,13 @@
+#!/bin/csh
+
+
+set FIELD=$1
+
+set DIR=$2
+
+set BASE=$3
+
+
+${BASE}/${DIR}/all_pr_in ${FIELD} ${DIR} ${BASE}
+
+

@@ -1,0 +1,32 @@
+SOURCES=count.c \
+       box.c \
+       meantrd.c \
+       read_tracks.c \
+       new_time.c \
+       sincos.c
+
+OBJECTS = $(SOURCES:.c=.o)
+
+OBJECT1=count.o meantrd.o read_tracks.o new_time.o sincos.o
+
+OBJECT2=box.o meantrd.o read_tracks.o new_time.o
+
+#CFLAGS = -g -Xa -xsb
+
+CFLAGS = -g -ansi -Wall -I../../include -D${SYSTEM} $(AD_C_FLAGS)
+
+LIBS = -lm
+
+
+.KEEP_STATE:
+
+all: count box
+
+count: ${OBJECTS}
+	$(CC) $(CFLAGS) -o ../bin/$@ $(OBJECT1) $(LIBS)
+
+box: ${OBJECTS}
+	$(CC) $(CFLAGS) -o ../bin/$@ $(OBJECT2) $(LIBS)
+
+
+

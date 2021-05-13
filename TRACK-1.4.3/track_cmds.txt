@@ -1,0 +1,40 @@
+1725    cd /export/quince/data-06/wx019276/TRACK/jja
+1726    ls
+1727    ls */ff*
+1728    gunzip */ff*
+1729    ls
+1730    ls -1
+1731    mkdir TOTAL
+1732    ls -1 */ff_trs_pos
+1733    vi combine.in
+1734    ~/TRACK-1.4.3/utils/bin/combine < combine.in
+1735    ls
+1736    mv combined_tr_trs TOTAL/tr_trs_VOR850_pos
+1737    pwd
+1738    ls
+1739    cd TOTAL
+1740    ssh sgshoges@earth.nerc-essc.ac.uk
+1741    vi all_pr_in
+1742    chmod u+x all_pr_in
+1743    cd
+1744    cd TRACK-1.4.3
+1745    cd indat
+1746    ls
+1747    scp sgshoges@earth.nerc-essc.ac.uk:/users/kih/TRACK-1.4.3/indat/STATS.latlng.in ./
+1748    nedit STATS.latlng.in &
+1749    ls
+1750    pwd
+1751    cd ..
+1752    ls
+1753    more run_track.csh
+1754    ls /export/quince/data-06/wx019276/um_expts/ctrl/trackdata
+1755    cd indat
+1756    ln -s /export/quince/data-06/wx019276/um_expts/ctrl/trackdata/ctrl_winds_850_1982_djf.nc ctrl_winds_850_1982_djf.nc
+1757    pwd
+1758    cd ..
+1759    bin/track.linux
+1760    csh
+1761    more ~/.cshrc
+1762    more ~/.bashrc
+1763    more ~/.profile
+1764    ls -al ~/| more

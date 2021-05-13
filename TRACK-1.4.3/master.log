@@ -1,0 +1,590 @@
+ 
+master -build -i=linux -f=linux
+ 
+master -clean
+ 
+master -build -i=linux -f=linux
+ 
+master -c=CTRL_VOR850_DJF1982 -d=now -e=track.linux -i=ctrl_vor850_1982_djf_filt.dat -f=djf1982 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-06/wx019276/TRACK/DJF -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=ctrl_VOR850_djf1982 -d=now -e=track.linux -i=ctrl_vor850_1982_djf_filt.dat -f=ctrl_djf1982 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-06/wx019276/TRACK/djf -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=ctrl_VOR850_jja -d=now -e=track.linux -i=ctrl_vor850__jja_filt.dat -f=ctrl_jja -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-06/wx019276/TRACK/jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=ctrl_VOR850_jja -d=now -e=track.linux -i=ctrl_vor850__jja_filt.dat -f=ctrl_jja -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-06/wx019276/TRACK/jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=ctrl_VOR850_jja -d=now -e=track.linux -i=ctrl_vor850__jja_filt.dat -f=ctrl_jja -j=RUN_AT.in -n=1,32,12 -o=/home/wx019276/teacosi/track/TRACK/jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+master -c=ctrl_VOR850_jja -d=now -e=track.linux -i=ctrl_vor850__jja_filt.dat -f=ctrl_jja -j=RUN_AT.in -n=1,32,12 -o=/home/wx019276/teacosi/track/TRACK/jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=ctrl_VOR850_jja1982 -d=now -e=track.linux -i=ctrl_vor850_1982_jja_filt.dat -f=ctrl_jja1982 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-06/wx019276/TRACK/jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=ctrl_VOR850_jja1982 -d=now -e=track.linux -i=ctrl_vor850_1982_jja_filt.dat -f=ctrl_jja1982 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-06/wx019276/TRACK/jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=ctrl_VOR850_jja1982 -d=now -e=track.linux -i=ctrl_vor850_1982_jja_filt.dat -f=ctrl_jja1982 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-06/wx019276/TRACK/jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=ctrl_VOR850_jja1982 -d=now -e=track.linux -i=ctrl_vor850_1982_jja_filt.dat -f=ctrl_jja1982 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-06/wx019276/TRACK/jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=ctrl_VOR850_jja1983 -d=now -e=track.linux -i=ctrl_vor850_1983_jja_filt.dat -f=ctrl_jja1983 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-06/wx019276/TRACK/jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=ctrl_VOR850_jja1984 -d=now -e=track.linux -i=ctrl_vor850_1984_jja_filt.dat -f=ctrl_jja1984 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-06/wx019276/TRACK/jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=ctrl_VOR850_jja1985 -d=now -e=track.linux -i=ctrl_vor850_1985_jja_filt.dat -f=ctrl_jja1985 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-06/wx019276/TRACK/jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=ctrl_VOR850_jja1986 -d=now -e=track.linux -i=ctrl_vor850_1986_jja_filt.dat -f=ctrl_jja1986 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-06/wx019276/TRACK/jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=ctrl_VOR850_jja1987 -d=now -e=track.linux -i=ctrl_vor850_1987_jja_filt.dat -f=ctrl_jja1987 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-06/wx019276/TRACK/jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=ctrl_VOR850_jja1988 -d=now -e=track.linux -i=ctrl_vor850_1988_jja_filt.dat -f=ctrl_jja1988 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-06/wx019276/TRACK/jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=ctrl_VOR850_jja1989 -d=now -e=track.linux -i=ctrl_vor850_1989_jja_filt.dat -f=ctrl_jja1989 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-06/wx019276/TRACK/jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=ctrl_VOR850_jja1990 -d=now -e=track.linux -i=ctrl_vor850_1990_jja_filt.dat -f=ctrl_jja1990 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-06/wx019276/TRACK/jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=ctrl_VOR850_jja1991 -d=now -e=track.linux -i=ctrl_vor850_1991_jja_filt.dat -f=ctrl_jja1991 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-06/wx019276/TRACK/jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=ctrl_VOR850_jja1992 -d=now -e=track.linux -i=ctrl_vor850_1992_jja_filt.dat -f=ctrl_jja1992 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-06/wx019276/TRACK/jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=ctrl_VOR850_jja1993 -d=now -e=track.linux -i=ctrl_vor850_1993_jja_filt.dat -f=ctrl_jja1993 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-06/wx019276/TRACK/jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=ctrl_VOR850_jja1994 -d=now -e=track.linux -i=ctrl_vor850_1994_jja_filt.dat -f=ctrl_jja1994 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-06/wx019276/TRACK/jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=ctrl_VOR850_jja1995 -d=now -e=track.linux -i=ctrl_vor850_1995_jja_filt.dat -f=ctrl_jja1995 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-06/wx019276/TRACK/jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=ctrl_VOR850_jja1996 -d=now -e=track.linux -i=ctrl_vor850_1996_jja_filt.dat -f=ctrl_jja1996 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-06/wx019276/TRACK/jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=ctrl_VOR850_jja1997 -d=now -e=track.linux -i=ctrl_vor850_1997_jja_filt.dat -f=ctrl_jja1997 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-06/wx019276/TRACK/jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=ctrl_VOR850_jja1998 -d=now -e=track.linux -i=ctrl_vor850_1998_jja_filt.dat -f=ctrl_jja1998 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-06/wx019276/TRACK/jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=ctrl_VOR850_jja1999 -d=now -e=track.linux -i=ctrl_vor850_1999_jja_filt.dat -f=ctrl_jja1999 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-06/wx019276/TRACK/jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=ctrl_VOR850_jja2000 -d=now -e=track.linux -i=ctrl_vor850_2000_jja_filt.dat -f=ctrl_jja2000 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-06/wx019276/TRACK/jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=ctrl_VOR850_jja2001 -d=now -e=track.linux -i=ctrl_vor850_2001_jja_filt.dat -f=ctrl_jja2001 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-06/wx019276/TRACK/jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=ctrl_VOR850_jja2002 -d=now -e=track.linux -i=ctrl_vor850_2002_jja_filt.dat -f=ctrl_jja2002 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-06/wx019276/TRACK/jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=ctrl_VOR850_jja2003 -d=now -e=track.linux -i=ctrl_vor850_2003_jja_filt.dat -f=ctrl_jja2003 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-06/wx019276/TRACK/jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=ctrl_VOR850_jja2004 -d=now -e=track.linux -i=ctrl_vor850_2004_jja_filt.dat -f=ctrl_jja2004 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-06/wx019276/TRACK/jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=ctrl_VOR850_jja2005 -d=now -e=track.linux -i=ctrl_vor850_2005_jja_filt.dat -f=ctrl_jja2005 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-06/wx019276/TRACK/jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=ctrl_VOR850_jja2006 -d=now -e=track.linux -i=ctrl_vor850_2006_jja_filt.dat -f=ctrl_jja2006 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-06/wx019276/TRACK/jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=ctrl_VOR850_jja2007 -d=now -e=track.linux -i=ctrl_vor850_2007_jja_filt.dat -f=ctrl_jja2007 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-06/wx019276/TRACK/jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=ctrl_VOR850_jja2008 -d=now -e=track.linux -i=ctrl_vor850_2008_jja_filt.dat -f=ctrl_jja2008 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-06/wx019276/TRACK/jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=ctrl_VOR850_jja2009 -d=now -e=track.linux -i=ctrl_vor850_2009_jja_filt.dat -f=ctrl_jja2009 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-06/wx019276/TRACK/jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=ctrl_VOR850_jja2010 -d=now -e=track.linux -i=ctrl_vor850_2010_jja_filt.dat -f=ctrl_jja2010 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-06/wx019276/TRACK/jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=ctrl_VOR850_jja2011 -d=now -e=track.linux -i=ctrl_vor850_2011_jja_filt.dat -f=ctrl_jja2011 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-06/wx019276/TRACK/jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=ctrl_VOR850_jja2012 -d=now -e=track.linux -i=ctrl_vor850_2012_jja_filt.dat -f=ctrl_jja2012 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-06/wx019276/TRACK/jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=pert_VOR850_jja1982 -d=now -e=track.linux -i=pert_vor850_1982_jja_filt.dat -f=pert_jja1982 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-06/wx019276/TRACK/pert_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=pert_VOR850_jja1983 -d=now -e=track.linux -i=pert_vor850_1983_jja_filt.dat -f=pert_jja1983 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-06/wx019276/TRACK/pert_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=pert_VOR850_jja1984 -d=now -e=track.linux -i=pert_vor850_1984_jja_filt.dat -f=pert_jja1984 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-06/wx019276/TRACK/pert_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=pert_VOR850_jja1985 -d=now -e=track.linux -i=pert_vor850_1985_jja_filt.dat -f=pert_jja1985 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-06/wx019276/TRACK/pert_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=pert_VOR850_jja1986 -d=now -e=track.linux -i=pert_vor850_1986_jja_filt.dat -f=pert_jja1986 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-06/wx019276/TRACK/pert_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=pert_VOR850_jja1987 -d=now -e=track.linux -i=pert_vor850_1987_jja_filt.dat -f=pert_jja1987 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-06/wx019276/TRACK/pert_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=pert_VOR850_jja1988 -d=now -e=track.linux -i=pert_vor850_1988_jja_filt.dat -f=pert_jja1988 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-06/wx019276/TRACK/pert_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=pert_VOR850_jja1989 -d=now -e=track.linux -i=pert_vor850_1989_jja_filt.dat -f=pert_jja1989 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-06/wx019276/TRACK/pert_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=pert_VOR850_jja1990 -d=now -e=track.linux -i=pert_vor850_1990_jja_filt.dat -f=pert_jja1990 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-06/wx019276/TRACK/pert_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=pert_VOR850_jja1991 -d=now -e=track.linux -i=pert_vor850_1991_jja_filt.dat -f=pert_jja1991 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-06/wx019276/TRACK/pert_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=pert_VOR850_jja1992 -d=now -e=track.linux -i=pert_vor850_1992_jja_filt.dat -f=pert_jja1992 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-06/wx019276/TRACK/pert_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=pert_VOR850_jja1993 -d=now -e=track.linux -i=pert_vor850_1993_jja_filt.dat -f=pert_jja1993 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-06/wx019276/TRACK/pert_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=pert_VOR850_jja1994 -d=now -e=track.linux -i=pert_vor850_1994_jja_filt.dat -f=pert_jja1994 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-06/wx019276/TRACK/pert_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=pert_VOR850_jja1995 -d=now -e=track.linux -i=pert_vor850_1995_jja_filt.dat -f=pert_jja1995 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-06/wx019276/TRACK/pert_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=pert_VOR850_jja1996 -d=now -e=track.linux -i=pert_vor850_1996_jja_filt.dat -f=pert_jja1996 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-06/wx019276/TRACK/pert_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=pert_VOR850_jja1997 -d=now -e=track.linux -i=pert_vor850_1997_jja_filt.dat -f=pert_jja1997 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-06/wx019276/TRACK/pert_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=pert_VOR850_jja1998 -d=now -e=track.linux -i=pert_vor850_1998_jja_filt.dat -f=pert_jja1998 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-06/wx019276/TRACK/pert_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=pert_VOR850_jja1999 -d=now -e=track.linux -i=pert_vor850_1999_jja_filt.dat -f=pert_jja1999 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-06/wx019276/TRACK/pert_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=pert_VOR850_jja2000 -d=now -e=track.linux -i=pert_vor850_2000_jja_filt.dat -f=pert_jja2000 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-06/wx019276/TRACK/pert_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=pert_VOR850_jja2001 -d=now -e=track.linux -i=pert_vor850_2001_jja_filt.dat -f=pert_jja2001 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-06/wx019276/TRACK/pert_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=pert_VOR850_jja2002 -d=now -e=track.linux -i=pert_vor850_2002_jja_filt.dat -f=pert_jja2002 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-06/wx019276/TRACK/pert_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=pert_VOR850_jja2003 -d=now -e=track.linux -i=pert_vor850_2003_jja_filt.dat -f=pert_jja2003 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-06/wx019276/TRACK/pert_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=pert_VOR850_jja2004 -d=now -e=track.linux -i=pert_vor850_2004_jja_filt.dat -f=pert_jja2004 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-06/wx019276/TRACK/pert_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=pert_VOR850_jja2005 -d=now -e=track.linux -i=pert_vor850_2005_jja_filt.dat -f=pert_jja2005 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-06/wx019276/TRACK/pert_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=pert_VOR850_jja2006 -d=now -e=track.linux -i=pert_vor850_2006_jja_filt.dat -f=pert_jja2006 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-06/wx019276/TRACK/pert_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=pert_VOR850_jja2007 -d=now -e=track.linux -i=pert_vor850_2007_jja_filt.dat -f=pert_jja2007 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-06/wx019276/TRACK/pert_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=pert_VOR850_jja2008 -d=now -e=track.linux -i=pert_vor850_2008_jja_filt.dat -f=pert_jja2008 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-06/wx019276/TRACK/pert_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=pert_VOR850_jja2009 -d=now -e=track.linux -i=pert_vor850_2009_jja_filt.dat -f=pert_jja2009 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-06/wx019276/TRACK/pert_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=pert_VOR850_jja2010 -d=now -e=track.linux -i=pert_vor850_2010_jja_filt.dat -f=pert_jja2010 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-06/wx019276/TRACK/pert_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=pert_VOR850_jja2011 -d=now -e=track.linux -i=pert_vor850_2011_jja_filt.dat -f=pert_jja2011 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-06/wx019276/TRACK/pert_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=pert_VOR850_jja2012 -d=now -e=track.linux -i=pert_vor850_2012_jja_filt.dat -f=pert_jja2012 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-06/wx019276/TRACK/pert_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja1982 -d=now -e=track.linux -i=iceonly_vor850_1982_jja_filt.dat -f=iceonly_jja1982 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja1983 -d=now -e=track.linux -i=iceonly_vor850_1983_jja_filt.dat -f=iceonly_jja1983 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja1984 -d=now -e=track.linux -i=iceonly_vor850_1984_jja_filt.dat -f=iceonly_jja1984 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja1985 -d=now -e=track.linux -i=iceonly_vor850_1985_jja_filt.dat -f=iceonly_jja1985 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja1986 -d=now -e=track.linux -i=iceonly_vor850_1986_jja_filt.dat -f=iceonly_jja1986 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja1987 -d=now -e=track.linux -i=iceonly_vor850_1987_jja_filt.dat -f=iceonly_jja1987 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja1988 -d=now -e=track.linux -i=iceonly_vor850_1988_jja_filt.dat -f=iceonly_jja1988 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja1989 -d=now -e=track.linux -i=iceonly_vor850_1989_jja_filt.dat -f=iceonly_jja1989 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja1990 -d=now -e=track.linux -i=iceonly_vor850_1990_jja_filt.dat -f=iceonly_jja1990 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja1991 -d=now -e=track.linux -i=iceonly_vor850_1991_jja_filt.dat -f=iceonly_jja1991 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja1992 -d=now -e=track.linux -i=iceonly_vor850_1992_jja_filt.dat -f=iceonly_jja1992 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja1993 -d=now -e=track.linux -i=iceonly_vor850_1993_jja_filt.dat -f=iceonly_jja1993 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja1994 -d=now -e=track.linux -i=iceonly_vor850_1994_jja_filt.dat -f=iceonly_jja1994 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja1995 -d=now -e=track.linux -i=iceonly_vor850_1995_jja_filt.dat -f=iceonly_jja1995 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja1996 -d=now -e=track.linux -i=iceonly_vor850_1996_jja_filt.dat -f=iceonly_jja1996 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja1997 -d=now -e=track.linux -i=iceonly_vor850_1997_jja_filt.dat -f=iceonly_jja1997 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja1998 -d=now -e=track.linux -i=iceonly_vor850_1998_jja_filt.dat -f=iceonly_jja1998 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja1999 -d=now -e=track.linux -i=iceonly_vor850_1999_jja_filt.dat -f=iceonly_jja1999 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja2000 -d=now -e=track.linux -i=iceonly_vor850_2000_jja_filt.dat -f=iceonly_jja2000 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja2001 -d=now -e=track.linux -i=iceonly_vor850_2001_jja_filt.dat -f=iceonly_jja2001 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja2002 -d=now -e=track.linux -i=iceonly_vor850_2002_jja_filt.dat -f=iceonly_jja2002 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja2003 -d=now -e=track.linux -i=iceonly_vor850_2003_jja_filt.dat -f=iceonly_jja2003 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja2004 -d=now -e=track.linux -i=iceonly_vor850_2004_jja_filt.dat -f=iceonly_jja2004 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja2005 -d=now -e=track.linux -i=iceonly_vor850_2005_jja_filt.dat -f=iceonly_jja2005 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja2006 -d=now -e=track.linux -i=iceonly_vor850_2006_jja_filt.dat -f=iceonly_jja2006 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja2007 -d=now -e=track.linux -i=iceonly_vor850_2007_jja_filt.dat -f=iceonly_jja2007 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja2008 -d=now -e=track.linux -i=iceonly_vor850_2008_jja_filt.dat -f=iceonly_jja2008 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja2009 -d=now -e=track.linux -i=iceonly_vor850_2009_jja_filt.dat -f=iceonly_jja2009 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja2010 -d=now -e=track.linux -i=iceonly_vor850_2010_jja_filt.dat -f=iceonly_jja2010 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja2011 -d=now -e=track.linux -i=iceonly_vor850_2011_jja_filt.dat -f=iceonly_jja2011 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja2012 -d=now -e=track.linux -i=iceonly_vor850_2012_jja_filt.dat -f=iceonly_jja2012 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja1982 -d=now -e=track.linux -i=iceonly_vor850_1982_jja_filt.dat -f=iceonly_jja1982 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja1983 -d=now -e=track.linux -i=iceonly_vor850_1983_jja_filt.dat -f=iceonly_jja1983 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja1984 -d=now -e=track.linux -i=iceonly_vor850_1984_jja_filt.dat -f=iceonly_jja1984 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja1985 -d=now -e=track.linux -i=iceonly_vor850_1985_jja_filt.dat -f=iceonly_jja1985 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja1986 -d=now -e=track.linux -i=iceonly_vor850_1986_jja_filt.dat -f=iceonly_jja1986 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja1987 -d=now -e=track.linux -i=iceonly_vor850_1987_jja_filt.dat -f=iceonly_jja1987 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja1988 -d=now -e=track.linux -i=iceonly_vor850_1988_jja_filt.dat -f=iceonly_jja1988 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja1989 -d=now -e=track.linux -i=iceonly_vor850_1989_jja_filt.dat -f=iceonly_jja1989 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja1990 -d=now -e=track.linux -i=iceonly_vor850_1990_jja_filt.dat -f=iceonly_jja1990 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja1991 -d=now -e=track.linux -i=iceonly_vor850_1991_jja_filt.dat -f=iceonly_jja1991 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja1992 -d=now -e=track.linux -i=iceonly_vor850_1992_jja_filt.dat -f=iceonly_jja1992 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja1993 -d=now -e=track.linux -i=iceonly_vor850_1993_jja_filt.dat -f=iceonly_jja1993 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja1994 -d=now -e=track.linux -i=iceonly_vor850_1994_jja_filt.dat -f=iceonly_jja1994 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja1995 -d=now -e=track.linux -i=iceonly_vor850_1995_jja_filt.dat -f=iceonly_jja1995 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja1996 -d=now -e=track.linux -i=iceonly_vor850_1996_jja_filt.dat -f=iceonly_jja1996 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja1997 -d=now -e=track.linux -i=iceonly_vor850_1997_jja_filt.dat -f=iceonly_jja1997 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja1998 -d=now -e=track.linux -i=iceonly_vor850_1998_jja_filt.dat -f=iceonly_jja1998 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja1999 -d=now -e=track.linux -i=iceonly_vor850_1999_jja_filt.dat -f=iceonly_jja1999 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja2000 -d=now -e=track.linux -i=iceonly_vor850_2000_jja_filt.dat -f=iceonly_jja2000 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja2001 -d=now -e=track.linux -i=iceonly_vor850_2001_jja_filt.dat -f=iceonly_jja2001 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja2002 -d=now -e=track.linux -i=iceonly_vor850_2002_jja_filt.dat -f=iceonly_jja2002 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja2003 -d=now -e=track.linux -i=iceonly_vor850_2003_jja_filt.dat -f=iceonly_jja2003 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja2004 -d=now -e=track.linux -i=iceonly_vor850_2004_jja_filt.dat -f=iceonly_jja2004 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja2005 -d=now -e=track.linux -i=iceonly_vor850_2005_jja_filt.dat -f=iceonly_jja2005 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja2006 -d=now -e=track.linux -i=iceonly_vor850_2006_jja_filt.dat -f=iceonly_jja2006 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja2007 -d=now -e=track.linux -i=iceonly_vor850_2007_jja_filt.dat -f=iceonly_jja2007 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja2008 -d=now -e=track.linux -i=iceonly_vor850_2008_jja_filt.dat -f=iceonly_jja2008 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja2009 -d=now -e=track.linux -i=iceonly_vor850_2009_jja_filt.dat -f=iceonly_jja2009 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja2010 -d=now -e=track.linux -i=iceonly_vor850_2010_jja_filt.dat -f=iceonly_jja2010 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja2011 -d=now -e=track.linux -i=iceonly_vor850_2011_jja_filt.dat -f=iceonly_jja2011 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja2012 -d=now -e=track.linux -i=iceonly_vor850_2012_jja_filt.dat -f=iceonly_jja2012 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja1982 -d=now -e=track.linux -i=iceonly_vor850_1982_jja_filt.dat -f=iceonly_jja1982 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja1983 -d=now -e=track.linux -i=iceonly_vor850_1983_jja_filt.dat -f=iceonly_jja1983 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja1984 -d=now -e=track.linux -i=iceonly_vor850_1984_jja_filt.dat -f=iceonly_jja1984 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja1985 -d=now -e=track.linux -i=iceonly_vor850_1985_jja_filt.dat -f=iceonly_jja1985 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja1986 -d=now -e=track.linux -i=iceonly_vor850_1986_jja_filt.dat -f=iceonly_jja1986 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja1987 -d=now -e=track.linux -i=iceonly_vor850_1987_jja_filt.dat -f=iceonly_jja1987 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja1988 -d=now -e=track.linux -i=iceonly_vor850_1988_jja_filt.dat -f=iceonly_jja1988 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja1989 -d=now -e=track.linux -i=iceonly_vor850_1989_jja_filt.dat -f=iceonly_jja1989 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja1990 -d=now -e=track.linux -i=iceonly_vor850_1990_jja_filt.dat -f=iceonly_jja1990 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja1991 -d=now -e=track.linux -i=iceonly_vor850_1991_jja_filt.dat -f=iceonly_jja1991 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja1992 -d=now -e=track.linux -i=iceonly_vor850_1992_jja_filt.dat -f=iceonly_jja1992 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja1993 -d=now -e=track.linux -i=iceonly_vor850_1993_jja_filt.dat -f=iceonly_jja1993 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja1994 -d=now -e=track.linux -i=iceonly_vor850_1994_jja_filt.dat -f=iceonly_jja1994 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja1995 -d=now -e=track.linux -i=iceonly_vor850_1995_jja_filt.dat -f=iceonly_jja1995 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja1996 -d=now -e=track.linux -i=iceonly_vor850_1996_jja_filt.dat -f=iceonly_jja1996 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja1997 -d=now -e=track.linux -i=iceonly_vor850_1997_jja_filt.dat -f=iceonly_jja1997 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja1998 -d=now -e=track.linux -i=iceonly_vor850_1998_jja_filt.dat -f=iceonly_jja1998 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja1999 -d=now -e=track.linux -i=iceonly_vor850_1999_jja_filt.dat -f=iceonly_jja1999 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja2000 -d=now -e=track.linux -i=iceonly_vor850_2000_jja_filt.dat -f=iceonly_jja2000 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja2001 -d=now -e=track.linux -i=iceonly_vor850_2001_jja_filt.dat -f=iceonly_jja2001 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja2002 -d=now -e=track.linux -i=iceonly_vor850_2002_jja_filt.dat -f=iceonly_jja2002 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja2003 -d=now -e=track.linux -i=iceonly_vor850_2003_jja_filt.dat -f=iceonly_jja2003 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja2004 -d=now -e=track.linux -i=iceonly_vor850_2004_jja_filt.dat -f=iceonly_jja2004 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja2005 -d=now -e=track.linux -i=iceonly_vor850_2005_jja_filt.dat -f=iceonly_jja2005 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja2006 -d=now -e=track.linux -i=iceonly_vor850_2006_jja_filt.dat -f=iceonly_jja2006 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja2007 -d=now -e=track.linux -i=iceonly_vor850_2007_jja_filt.dat -f=iceonly_jja2007 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja2008 -d=now -e=track.linux -i=iceonly_vor850_2008_jja_filt.dat -f=iceonly_jja2008 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja2009 -d=now -e=track.linux -i=iceonly_vor850_2009_jja_filt.dat -f=iceonly_jja2009 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja2010 -d=now -e=track.linux -i=iceonly_vor850_2010_jja_filt.dat -f=iceonly_jja2010 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja2011 -d=now -e=track.linux -i=iceonly_vor850_2011_jja_filt.dat -f=iceonly_jja2011 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja2012 -d=now -e=track.linux -i=iceonly_vor850_2012_jja_filt.dat -f=iceonly_jja2012 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja1982 -d=now -e=track.linux -i=iceonly_vor850_1982_jja_filt.dat -f=iceonly_jja1982 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja1983 -d=now -e=track.linux -i=iceonly_vor850_1983_jja_filt.dat -f=iceonly_jja1983 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja1984 -d=now -e=track.linux -i=iceonly_vor850_1984_jja_filt.dat -f=iceonly_jja1984 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja1985 -d=now -e=track.linux -i=iceonly_vor850_1985_jja_filt.dat -f=iceonly_jja1985 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja1986 -d=now -e=track.linux -i=iceonly_vor850_1986_jja_filt.dat -f=iceonly_jja1986 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja1987 -d=now -e=track.linux -i=iceonly_vor850_1987_jja_filt.dat -f=iceonly_jja1987 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja1988 -d=now -e=track.linux -i=iceonly_vor850_1988_jja_filt.dat -f=iceonly_jja1988 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja1989 -d=now -e=track.linux -i=iceonly_vor850_1989_jja_filt.dat -f=iceonly_jja1989 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja1990 -d=now -e=track.linux -i=iceonly_vor850_1990_jja_filt.dat -f=iceonly_jja1990 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja1991 -d=now -e=track.linux -i=iceonly_vor850_1991_jja_filt.dat -f=iceonly_jja1991 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja1992 -d=now -e=track.linux -i=iceonly_vor850_1992_jja_filt.dat -f=iceonly_jja1992 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja1993 -d=now -e=track.linux -i=iceonly_vor850_1993_jja_filt.dat -f=iceonly_jja1993 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja1994 -d=now -e=track.linux -i=iceonly_vor850_1994_jja_filt.dat -f=iceonly_jja1994 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja1995 -d=now -e=track.linux -i=iceonly_vor850_1995_jja_filt.dat -f=iceonly_jja1995 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja1996 -d=now -e=track.linux -i=iceonly_vor850_1996_jja_filt.dat -f=iceonly_jja1996 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja1997 -d=now -e=track.linux -i=iceonly_vor850_1997_jja_filt.dat -f=iceonly_jja1997 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja1998 -d=now -e=track.linux -i=iceonly_vor850_1998_jja_filt.dat -f=iceonly_jja1998 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja1999 -d=now -e=track.linux -i=iceonly_vor850_1999_jja_filt.dat -f=iceonly_jja1999 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja2000 -d=now -e=track.linux -i=iceonly_vor850_2000_jja_filt.dat -f=iceonly_jja2000 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja2001 -d=now -e=track.linux -i=iceonly_vor850_2001_jja_filt.dat -f=iceonly_jja2001 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja2002 -d=now -e=track.linux -i=iceonly_vor850_2002_jja_filt.dat -f=iceonly_jja2002 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja2003 -d=now -e=track.linux -i=iceonly_vor850_2003_jja_filt.dat -f=iceonly_jja2003 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja2004 -d=now -e=track.linux -i=iceonly_vor850_2004_jja_filt.dat -f=iceonly_jja2004 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja2005 -d=now -e=track.linux -i=iceonly_vor850_2005_jja_filt.dat -f=iceonly_jja2005 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja2006 -d=now -e=track.linux -i=iceonly_vor850_2006_jja_filt.dat -f=iceonly_jja2006 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja2007 -d=now -e=track.linux -i=iceonly_vor850_2007_jja_filt.dat -f=iceonly_jja2007 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja2008 -d=now -e=track.linux -i=iceonly_vor850_2008_jja_filt.dat -f=iceonly_jja2008 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja2009 -d=now -e=track.linux -i=iceonly_vor850_2009_jja_filt.dat -f=iceonly_jja2009 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja2010 -d=now -e=track.linux -i=iceonly_vor850_2010_jja_filt.dat -f=iceonly_jja2010 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja2011 -d=now -e=track.linux -i=iceonly_vor850_2011_jja_filt.dat -f=iceonly_jja2011 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 
+ 
+master -c=iceonly_VOR850_jja2012 -d=now -e=track.linux -i=iceonly_vor850_2012_jja_filt.dat -f=iceonly_jja2012 -j=RUN_AT.in -n=1,32,12 -o=/export/quince/data-05/wx019276/TRACK/iceonly_jja -r=RUN_AT_ -s=RUNDATIN.VOR
+ 

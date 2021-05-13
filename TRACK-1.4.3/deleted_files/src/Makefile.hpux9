@@ -1,0 +1,65 @@
+# Makefile for track
+#
+
+    MAKE = make
+
+  INCGCC = $(GCCINC)
+ ADDINCS =
+
+# 
+# Include for gcc compilation
+INCLUDES = -I../include -I../lib/include -I$(INCGCC) -I/usr/include -nostdinc $(ADDINCS)
+
+#INCLUDES = -I../include -I../lib/include $(ADDINCS)
+
+
+#
+# CFLAGS for gcc
+#CFLAGS = -ansi -g -D$(MDEBUG) -D$(SYSTEM) -D$(USAPPEND) -D$(HAVNETC) -O2 -Wall -Wshadow -Wpointer-arith -Wnested-externs $(INCLUDES)
+
+FFLAGS = -c ${N_FFLAGS}
+PFLAGS =  -F -D$(MUNI) -D$(MNAME)
+SFLAGS = -c $(CFLAGS)
+OFLAGS = -c $(CFLAGS)
+
+include Makefile.include.hpux9
+
+
+# conditional macros are not supported in versions of HPUX lower than 10,
+# comment as required.
+
+# --------------------Conditional Macros---------------------------
+
+#surfit:= CFLAGS += -DREGULAR
+
+#lopt:= CFLAGS += -DREGULAR -DOPT
+
+# ----------------Alternative to Conditional macros----------------
+
+CFLAGS = -ansi -g -D$(MDEBUG) -D$(SYSTEM) -D$(USAPPEND) -O2 -Wall -Wshadow -Wpointer-arith -Wnested-externs $(INCLUDES) -DREGULAR -DOPT
+
+# --------------------End of Conditional Macros--------------------
+
+C_OBJECTS1 = $(CSOURCES1:.c=.o)
+C_OBJECTS2 = $(CSOURCES2:.c=.o)
+F_SOURCES = $(P_SOURCES:.F=.f)
+F_OBJECTS = $(F_SOURCES:.f=.o)
+
+.KEEP_STATE: 
+
+all surfit lopt: C_OBJS F_OBJS
+
+C_OBJS: $(C_OBJECTS1) $(C_OBJECTS2) sincos.o
+
+F_OBJS:
+	if [ "${FC}" = "g77" ]; then $(FC) $(FFLAGS) $(P_SOURCES); \
+	else \
+	  $(FC) $(PFLAGS) $(P_SOURCES); \
+	  $(FC) $(FFLAGS) $(F_SOURCES); \
+	fi
+
+depend:
+	makedepend -f Makefile.hpux9 -- $(CFLAGS) -- $(C_SOURCES1)
+	makedepend -a -f Makefile.hpux9 -- $(CFLAGS) -- $(C_SOURCES2)
+	../sfmakedepend -f Makefile.hpux9 $(P_SOURCES)
+
