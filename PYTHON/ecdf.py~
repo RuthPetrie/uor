@@ -1,0 +1,9 @@
+import matplotlib.pyplot as plt
+import numpy as np
+import scipy.stats as sp
+
+# data
+heights=[185, 173, 180,178,170,182,178,175,181,175,197,168,172]
+hgts=np.array(heights)
+nbins=len(heights)
+ecdf=sp.cumfreq(hgts, nbins)
