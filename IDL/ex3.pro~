@@ -1,0 +1,14 @@
+PRO ex3
+PSOPEN
+stepsize = 5
+d = NCREAD('SIC_NDJ_2011_ECMWF_ERAI.nc')
+min_val = round(MIN(d.temp(*,60:72,0)))
+max_val = round(MAX(d.temp(*,60:72,0)))
+CS, SCALE=42, NCOLS=round((max_val-min_val)/stepsize) +2
+MAP, /NH, LATMIN=60, LATMAX=90
+LEVS, MIN=min_val, MAX=max_val, STEP=stepsize, NDECS = 1
+CON, F=SF('gdata.nc', 'temp', p=1000), CB_TITLE='Height (m)', $
+     TITLE='Jan 1987 - 1000mb Temperature'
+PSCLOSE
+END
+
